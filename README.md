@@ -107,6 +107,6 @@ For questions or collaboration, please reach out to salasdelil8@gmail.com.
 ![Jobs List Application Screenshot](public/screenshots/Screenshot03.png)
 
 **Job detail**
-[Jobs List Application Screenshot](public/screenshots/Screenshot04.png)
+![Jobs List Application Screenshot](public/screenshots/Screenshot04.png)
 
 
