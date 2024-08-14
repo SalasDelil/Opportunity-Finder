@@ -1,13 +1,12 @@
 # Opportunity Finder
 
-Opportunity Finder is a Next.js application designed to help users discover and apply for various opportunities, such as volunteer positions, internships, and more. The application provides a clean and modern interface, making it easy to explore and engage with opportunities that align with the user's skills and interests.
+Opportunity Finder is a Next.js application designed to display various opportunities, such as volunteer positions, internships, and more. The application provides a clean and modern interface, making it easy to explore and engage with opportunities that align with the user's skills and interests.
 
 ## Features
 
 - **Opportunity Listing**: Browse a list of available opportunities.
 - **Opportunity Details**: View detailed information about each opportunity.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Search Functionality**: Quickly find opportunities based on specific criteria.
 - **Interactive UI**: Includes hover effects, gradients, and other visual enhancements.
 
 ## Tech Stack
@@ -43,7 +42,7 @@ To run this project locally, follow these steps:
     npm run dev
     ```
 
-The application should now be running at [http://localhost:3000]http://localhost:3000.
+The application should now be running at [http://localhost:3000](http://localhost:3000).
 
 ## Project Structure
 
@@ -74,13 +73,13 @@ The app integrates with an external API to fetch and display opportunities. The 
 - Get All Opportunities:
 
 ```typescript
-    useGetAllOpportunitiesQuery();
+useGetAllOpportunitiesQuery();
 ```
 
 - Get Opportunity by ID:
 
 ```typescript
-    useGetOpportunityByIdQuery(id);
+useGetOpportunityByIdQuery(id);
 ```
 
 ## Styling
@@ -90,16 +89,24 @@ The application uses Tailwind CSS for styling. Key features include:
 - **Hover Effects**: Interactive elements with shadows and transitions.
 - **Responsive Design**: Ensures compatibility across various screen sizes.
 
-### Contributing
+**Contributing**
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
 
-### Contact
-For questions or collaboration, please reach out to [salasdelil8@gmail.com].
+**Contact**
+For questions or collaboration, please reach out to salasdelil8@gmail.com.
 
 ## Screenshots
 
-![Jobs List Application Screenshot](public/Screenshot1.png)
+**Home page**
+![Jobs List Application Screenshot](public/screenshots/Screenshot01.png)
 
-### Description page for the selected job with specifications and calendar
-![Jobs List Application Screenshot](public/Screenshot2.png)
+**Error page**
+![Jobs List Application Screenshot](public/screenshots/Screenshot02.png)!
+
+**Opportunities list**
+![Jobs List Application Screenshot](public/screenshots/Screenshot03.png)
+
+**Job detail**
+[Jobs List Application Screenshot](public/screenshots/Screenshot04.png)
+
 
