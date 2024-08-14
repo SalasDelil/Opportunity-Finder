@@ -1,6 +1,6 @@
 # Opportunity Finder
 
-Opportunity Finder is a Next.js application designed to display various opportunities, such as volunteer positions, internships, and more. The application provides a clean and modern interface, making it easy to explore and engage with opportunities that align with the user's skills and interests.
+Opportunity Finder is a Next.js application designed to showcase various opportunities, such as volunteer positions, internships, and more. The application provides a clean and modern interface, making it easy to explore and engage with opportunities that align with the user's skills and interests.
 
 ## Features
 
@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/opportunity-finder.git
+   git clone https://github.com/SalasDelil/Opportunity-Finder
     ```
 
 2. **Navigate to the project directory:**
@@ -101,12 +101,10 @@ For questions or collaboration, please reach out to salasdelil8@gmail.com.
 ![Jobs List Application Screenshot](public/screenshots/Screenshot01.png)
 
 **Error page**
-![Jobs List Application Screenshot](public/screenshots/Screenshot02.png)!
+![Jobs List Application Screenshot](public/screenshots/Screenshot02.png)
 
 **Opportunities list**
 ![Jobs List Application Screenshot](public/screenshots/Screenshot03.png)
 
 **Job detail**
 ![Jobs List Application Screenshot](public/screenshots/Screenshot04.png)
-
-
