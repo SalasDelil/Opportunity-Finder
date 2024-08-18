@@ -75,7 +75,7 @@ export default function VerifyOTP() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-80">
+      <div className="bg-white p-8 rounded-custom-rad0 shadow-lg w-80">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">
           Verify Email
         </h2>

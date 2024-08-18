@@ -12,7 +12,7 @@ const Navbar = ({ children }: Readonly<{ children: React.ReactNode }>) => {
       <header className="flex justify-between w-full bg-gradient-to-r from-blue-400 to-purple-700 p-6 text-white shadow-lg hover:shadow-xl transition-shadow">
         <Link
           href="/"
-          className="text-3xl border-y-2 p-2 rounded-full w-fit font-bold"
+          className="text-3xl border-y-2 p-2 rounded-full font-bold"
         >
           Opportunity Finder
         </Link>
@@ -20,7 +20,7 @@ const Navbar = ({ children }: Readonly<{ children: React.ReactNode }>) => {
           <div className="flex justify-between items-center space-x-3">
             <img
               src={session.user?.image as string}
-              alt="Img"
+              alt="Image"
               className="rounded-full max-w-8 max-h-8"
             />
             <p>{session.user?.name}</p>

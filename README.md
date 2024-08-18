@@ -6,6 +6,8 @@ Opportunity Finder is a Next.js application designed to showcase various opportu
 
 - **Opportunity Listing**: Browse a list of available opportunities.
 - **Opportunity Details**: View detailed information about each opportunity.
+- **Sign in page**: To Sign in users with verified email.
+- **Sign up page**: To sign up users with credential providers or with custom API with OTP verification.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **Interactive UI**: Includes hover effects, gradients, and other visual enhancements.
 
@@ -108,3 +110,15 @@ For questions or collaboration, please reach out to salasdelil8@gmail.com.
 
 **Job detail**
 ![Jobs List Application Screenshot](public/screenshots/Screenshot04.png)
+
+**Sign in page**
+![Jobs List Application Screenshot](public/screenshots/Screenshot05.png)
+
+**Sign up page**
+![Jobs List Application Screenshot](public/screenshots/Screenshot06.png)
+
+**Sign in with providers like google**
+![Jobs List Application Screenshot](public/screenshots/Screenshot07.png)
+
+**Email verification with OTP(One Time Password)**
+![Jobs List Application Screenshot](public/screenshots/Screenshot08.png)
