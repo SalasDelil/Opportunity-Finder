@@ -52,9 +52,8 @@ export default function VerifyOTP() {
 
     try {
       // Send a POST request to the verification endpoint
-      console.log(otp)
+      
       // join the strings
-
       const validOtp: string = otp.join("")
       const response = await axios.post(
         "https://akil-backend.onrender.com/verify-email",
@@ -69,7 +68,7 @@ export default function VerifyOTP() {
         router.push("/signin"); // Redirect to the sign-in page on success
       }
     } catch (error) {
-      setError("Invalid OTP or email. Please try again.");
+      setError("Invalid OTP. Please try again.");
     }
   };
 
@@ -108,7 +107,7 @@ export default function VerifyOTP() {
 
         <button
           onClick={handleSubmit}
-          className="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition"
+          className="w-full bg-purple-600 text-white py-2 rounded-full hover:bg-purple-700 transition ease-in-out duration-350"
         >
           Continue
         </button>
