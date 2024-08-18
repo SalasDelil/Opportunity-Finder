@@ -41,22 +41,24 @@ const OpportunityDetailPage = ({ params }: { params: { id: string } }) => {
   };
 
   return (
-    <div className="mx-auto w-10/12">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="col-span-2">
-          <JobDescription
-            title={jobData.title}
-            description={jobData.description}
-            responsibilities={jobData.responsibilities}
-            candidate={jobData.idealCandidate}
-            whenWhere={jobData.whenAndWhere}
-          />
-        </div>
-        <div className="my-2">
-          <Sidebar about={about} />
+    <Navbar>
+      <div className="mx-auto w-10/12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="col-span-2">
+            <JobDescription
+              title={jobData.title}
+              description={jobData.description}
+              responsibilities={jobData.responsibilities}
+              candidate={jobData.idealCandidate}
+              whenWhere={jobData.whenAndWhere}
+            />
+          </div>
+          <div className="my-2">
+            <Sidebar about={about} />
+          </div>
         </div>
       </div>
-    </div>
+    </Navbar>
   );
 };
 

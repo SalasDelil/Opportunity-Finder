@@ -1,3 +1,5 @@
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import { CiCircleCheck, CiLocationOn } from "react-icons/ci";
 
 interface DescriptionTypes {
@@ -9,6 +11,13 @@ interface DescriptionTypes {
 }
 
 const JobDescription = (description: DescriptionTypes) => {
+  const { data: session } = useSession();
+  const router = useRouter();
+
+  if (!session) {
+    router.push("/signin"); // Redirect to signin page if user is not logged in
+  }
+
   return (
     <div className="max-w-4xl mx-auto py-4 text-custom-color">
       <h1 className="text-2xl font-black">{description.title}</h1>
@@ -37,12 +46,12 @@ const JobDescription = (description: DescriptionTypes) => {
 
       <section className="mt-6">
         <h2 className="text-xl font-black ">When & Where</h2>
-        <p className="flex items-center mt-2">
+        <div className="flex items-center mt-2">
           <div className="mr-2 p-2 border rounded-full text-emerald-400">
             <CiLocationOn />
           </div>
           {description.whenWhere}
-        </p>
+        </div>
       </section>
     </div>
   );
