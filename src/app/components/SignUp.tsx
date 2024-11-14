@@ -55,8 +55,9 @@ export default function SignIn() {
   }, [session, router]);
 
   return (
-    <main className="flex justify-center itmes-center p-8">
-      <div className="w-full max-w-xl py-6 px-10 sm:px-28 bg-white border rounded-border-rad flex flex-col items-center justify-center">
+    <main className="flex justify-center itmes-center min-h-screen p-8 bg-[url('./assets/background01.jpg')] bg-cover bg-center">
+      <div className=" fixed inset-0 bg-black/30 backdrop-blur-sm"></div>
+      <div className="relative z-10 w-full max-w-xl py-6 px-10 sm:px-28 bg-white/60 border rounded-border-rad flex flex-col items-center justify-center">
         <div className="font-black text-custom-color text-custome-size0 sm:text-custome-size1">
           Sign Up Today!
         </div>
@@ -205,7 +206,7 @@ export default function SignIn() {
               Submit
             </button>
           </section>
-          <section className="w-full text-custome-size font-epilogue text-gray-400">
+          <section className="w-full text-custome-size font-epilogue text-white">
             <div>
               Already have an account?{" "}
               <Link href="/signin" className="text-blue-800">
@@ -213,7 +214,7 @@ export default function SignIn() {
               </Link>
             </div>
             <p className="mt-6">
-              By clicking 'Continue', you acknowledge that you have read and
+              By clicking &apos;Submit&apos;, you acknowledge that you have read and
               accepted our{" "}
               <span className="text-blue-800">Terms of Service</span> and{" "}
               <span className="text-blue-800">Privacy Policy</span>.

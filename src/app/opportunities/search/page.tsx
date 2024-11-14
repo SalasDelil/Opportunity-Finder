@@ -8,6 +8,7 @@ import JobCard from "@/app/features/JobsCard";
 import Navbar from "@/app/features/Navbar";
 import Link from "next/link";
 import NotFound from "@/app/features/NotFound";
+import SearchInput from "@/components/SearchInput";
 
 export default function OpportunityPage() {
   const { data, error, isLoading } = useGetAllOpportunitiesQuery("");
@@ -40,6 +41,7 @@ export default function OpportunityPage() {
             <div className="font-black text-custome-size1">Opportunities</div>
             <i>Showing {Opportunities.length} results</i>
           </div>
+          <SearchInput />
           <div className="relative inline-block text-left">
             <div>
               <button

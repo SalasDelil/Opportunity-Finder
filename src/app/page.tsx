@@ -11,7 +11,11 @@ export default function HomePage() {
 
   return (
     <Navbar>
-      <div className="flex flex-col items-center justify-start pt-6 w-full min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+      <div className="relative flex flex-col items-center justify-start pt-6 w-full min-h-screen text-white bg-[url('./assets/background02.jpg')] bg-cover bg-center"
+      >
+        <div className="absolute inset-0 bg-black/20 backdrop-blur-sm"></div>
+        <div className="relative z-10 flex flex-col items-center">
+
         <h1 className="text-5xl font-bold mb-6">
           Welcome to Opportunity Finder
         </h1>
@@ -26,6 +30,7 @@ export default function HomePage() {
         >
           Search Opportunities
         </button>
+      </div>
       </div>
     </Navbar>
   );
